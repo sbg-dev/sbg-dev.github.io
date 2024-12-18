@@ -1,0 +1,130 @@
+:root {
+    --tea-green: #dbf5b1ff;
+    --dark-cyan: #259385ff;
+    --quinacridone-magenta: #844e5cff;
+    --midnight-green: #065666ff;
+    --oxford-blue: #05022cff;
+    --christmas-white: #f4f4f4;
+    --christmas-red: #d32f2f;
+    --vermilion: #e6362fff
+}
+
+body {
+    background-color: var(--oxford-blue);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+    color: var(--christmas-white);
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.christmas-header {
+    background-color: var(--oxford-blue);
+    padding: 0 0 10px 0;
+    color: var(--christmas-white);
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px var(--quinacridone-magenta);
+}
+
+footer {
+    background-color: var(--christmas-red);
+    color: var(--christmas-white);
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: var(--christmas-red);
+    /* text-shadow: 1px 1px 2px #000; */
+}
+
+p {
+    color: var(--dark-cyan);
+}
+
+a {
+    color: var(--vermilion);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff9800;
+}
+
+article {
+    background-color: var(--christmas-white);
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+header img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+article h1 {
+    color: var(--christmas-red);
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+article p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+article img {
+    max-width: 100%;
+    border: 5px solid var(--christmas-red);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+hr {
+    border: 1px solid var(--christmas-red);
+    margin: 20px auto;
+    width: 80%;
+}
+
+nav {
+    background-color: var(--christmas-red); /* Christmas red */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--christmas-white);
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffca28; /* Gold */
+    text-decoration: underline;
+}
