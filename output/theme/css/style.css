@@ -58,6 +58,15 @@ a:hover {
     color: #ff9800;
 }
 
+.footer {
+    color: var(--christmas-white);
+}
+
+.footer:hover {
+    text-decoration: underline;
+    color: #ff9800;
+}
+
 article {
     background-color: var(--christmas-white);
     margin: 20px auto;
@@ -68,12 +77,6 @@ article {
     max-width: 800px;
     position: relative;
     overflow: hidden;
-}
-
-header img {
-    height: 50px;
-    vertical-align: middle;
-    margin-right: 10px;
 }
 
 article h1 {
