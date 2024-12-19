@@ -131,3 +131,21 @@ nav ul li a:hover {
     color: #ffca28; /* Gold */
     text-decoration: underline;
 }
+
+pre {
+    color: var(--dark-cyan);
+    background-color: var(--tea-green);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: auto;
+    text-align: left; /* Ensure left alignment */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+code {
+    background-color: var(--tea-green);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
