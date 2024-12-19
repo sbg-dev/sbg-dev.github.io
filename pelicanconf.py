@@ -13,7 +13,7 @@ DEFAULT_LANG = 'en'
 
 THEME = "./christmas-theme"
 
-MENUITEMS = [("About", "/pages/about")]
+# MENUITEMS = [("About", "/pages/about")]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
