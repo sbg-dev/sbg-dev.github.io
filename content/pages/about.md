@@ -4,7 +4,7 @@ Slug: about
 Authors: sbg
 Status: hidden
 
-# Welcome to my website! 🎄  
+## Welcome to my website! 🎄
 
 I'm an enthusiastic developer who loves tinkering around. This site is powered by Pelican and decorated with a custom **Christmas theme**. I'm planning to rotate the theme thoughout the year to celebrate different holidays.
 
