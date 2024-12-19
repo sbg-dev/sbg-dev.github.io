@@ -6,7 +6,7 @@
 <article>
     <h1>{{ article.title }}</h1>
     <p>
-        <small>
+        <small class="published-info">
             Published on {{ article.date.strftime('%B %d, %Y') }} 
             {% if article.category %} | Category: {{ article.category }}{% endif %}
         </small>

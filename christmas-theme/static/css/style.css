@@ -87,6 +87,14 @@ article h1 {
 article p {
     font-size: 1.2em;
     line-height: 1.6;
+    text-align: left;
+}
+
+.published-info {
+    display: block;
+    text-align: center;
+    font-size: 0.9em; /* Optional: Adjust font size if needed */
+    color: var(--dark-cyan); /* Optional: Adjust color if needed */
 }
 
 article img {
@@ -148,4 +156,13 @@ code {
     padding: 2px 4px;
     border-radius: 3px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    padding-left: 100px; /* Adjust padding as needed */
+    list-style-position: outside; /* Ensure bullets are outside the content */
+}
+
+li {
+    text-align: left; /* Ensure text is left-aligned */
 }
