@@ -67,6 +67,10 @@ a:hover {
     color: #ff9800;
 }
 
+.index-content p {
+    text-align: center;
+}
+
 article {
     background-color: var(--christmas-white);
     margin: 20px auto;
