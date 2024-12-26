@@ -1,0 +1,17 @@
+{
+    "Article Template": {
+        "prefix": "article",
+        "body": [
+            "Title: ${1:Title}",
+            "Date: ${2:2024-12-24}",
+            "Slug: ${3:slug}",
+            "Authors: ${4:sbg}",
+            "Summary: ${5:Summary}",
+            "",
+            "# ${6:Heading}",
+            "",
+            "${7:Content}"
+        ],
+        "description": "Template for a new article"
+    }
+}
