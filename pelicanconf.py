@@ -11,7 +11,7 @@ TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
 
-THEME = "./christmas-theme"
+THEME = "./themes/new-year"
 
 # MENUITEMS = [("About", "/pages/about")]
 
