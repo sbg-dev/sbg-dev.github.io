@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+</head>
+<body>
+    <header class="christmas-header">
+        <nav>
+            <ul>
+                <li><a href="{{ SITEURL }}/">Home</a></li>
+                {% for title, link in MENUITEMS %}
+                <li><a href="{{ SITEURL }}{{ link }}">{{ title }}</a></li>
+                {% endfor %}
+                {% for page in pages %}
+                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <h3>© {{ CURRENT_YEAR }} {{ SITENAME }} | Powered by Pelican | Stay Warm this Winter!</h3>
+
+    <footer>
+        <a class="footer" href="{{ SITEURL }}/pages/legal-notice">Legal Notice</a> 
+        |
+        <a class="footer" href="{{ SITEURL }}/pages/about">About</a>
+    </footer>
+</body>
+</html>

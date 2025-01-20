@@ -13,4 +13,3 @@ I'm an enthusiastic developer who loves tinkering around. This site is powered b
 I've been recently been laid off from my job and I'm using this site to document my journey back to employment. I'm also using this site to document my learnings and share my thoughts.
 
 ---
-Happy Holidays! 🎅

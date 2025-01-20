@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Home{% endblock %}
+
+{% block content %}
+<div class="index-content">
+    <h1>Welcome to {{ SITENAME }}</h1>
+    <p>Embrace the magic of winter and the warmth it brings!</p>
+    {% for article in articles %}
+    <article>
+        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+        <p>{{ article.summary }}</p>
+    </article>
+    {% endfor %}
+</div>
+{% endblock %}
